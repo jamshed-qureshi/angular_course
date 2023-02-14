@@ -1,0 +1,23 @@
+<h3>DIV Click Event</h3>
+<div (click)="divClicked()">
+    <p>Some Text</p>
+</div>
+
+<h3>Button Click Event</h3>
+<p>
+    <button (click)="buttonClicked()">Save</button>
+</p>
+
+<h3>Input Field Event</h3>
+<p>
+    <input (input)="inputChanged($event)" (keydown.enter)="enterkeypressed()">
+</p>
+
+<h3>Seletion Change Event</h3>
+<p>
+    <select (change)="selectionChanged($event)">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+    </select>
+</p>
