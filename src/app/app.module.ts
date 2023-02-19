@@ -7,6 +7,7 @@ import { VDataBindingUsingInterpolationComponent } from './lessons/v-data-bindin
 import { VIPropertyBindingComponent } from './lessons/vi-property-binding/vi-property-binding.component';
 import { VIIEventBindingComponent } from './lessons/vii-event-binding/vii-event-binding.component';
 import { VIIITwoWayDataBindingComponent } from './lessons/viii-two-way-data-binding/viii-two-way-data-binding.component';
+import { XNgIfInAngularComponent } from './lessons/x-ng-if-in-angular/x-ng-if-in-angular.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { VIIITwoWayDataBindingComponent } from './lessons/viii-two-way-data-bind
     VIPropertyBindingComponent,
     VIIEventBindingComponent,
     VIIITwoWayDataBindingComponent,
+    XNgIfInAngularComponent,
   ],
   imports: [
     FormsModule,
