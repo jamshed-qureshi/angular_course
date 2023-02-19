@@ -1,0 +1,11 @@
+<div *ngIf="stockAvailable; then stockIsAvailable else stockNotAvailable">Will not be rendered.</div>
+
+<ng-template #stockIsAvailable>
+    Stock is available.
+</ng-template>
+
+<ng-template #stockNotAvailable>
+    Out of Stock.
+</ng-template>
+
+
