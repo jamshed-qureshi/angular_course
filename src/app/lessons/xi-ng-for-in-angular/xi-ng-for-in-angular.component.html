@@ -1,0 +1,11 @@
+<p>
+    <input [(ngModel)]="product">
+</p>
+
+<p>
+    <button (click)="addProduct()">Add Product</button>
+</p>
+
+<div *ngFor="let product of products; index as i">
+    {{ product }} has index of {{ i }}
+</div>
