@@ -1,0 +1,22 @@
+<h3>Type 1</h3>
+<div *ngIf="isStockAvailable" class="text-white" [ngClass]="'bg-success'">
+    Stock Available
+</div>
+<div *ngIf="!isStockAvailable" class="text-white" [ngClass]="'bg-danger'">
+    Out of Stock.
+</div>
+
+<h3>Type 2</h3>
+<div class="text-white" [ngClass]="{'bg-success': isStockAvailable, 'bg-danger': !isStockAvailable}">
+    {{ isStockAvailable ? 'Stock Available' : 'Out of Stock.' }}
+</div>
+
+<h3>Type 3</h3>
+<div class="text-white" [ngClass]="isStockAvailable ? 'bg-success' : 'bg-danger'">
+    {{ isStockAvailable ? 'Stock Available' : 'Out of Stock.' }}
+</div>
+
+<h3>Type 4</h3>
+<div class="text-white" [ngClass]="stockCheck()">
+    {{ isStockAvailable ? 'Stock Available' : 'Out of Stock.' }}
+</div>

@@ -9,6 +9,7 @@ import { VIIEventBindingComponent } from './lessons/vii-event-binding/vii-event-
 import { VIIITwoWayDataBindingComponent } from './lessons/viii-two-way-data-binding/viii-two-way-data-binding.component';
 import { XNgIfInAngularComponent } from './lessons/x-ng-if-in-angular/x-ng-if-in-angular.component';
 import { XINgForInAngularComponent } from './lessons/xi-ng-for-in-angular/xi-ng-for-in-angular.component';
+import { XIINgClassInAngularComponent } from './lessons/xii-ng-class-in-angular/xii-ng-class-in-angular.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { XINgForInAngularComponent } from './lessons/xi-ng-for-in-angular/xi-ng-
     VIIITwoWayDataBindingComponent,
     XNgIfInAngularComponent,
     XINgForInAngularComponent,
+    XIINgClassInAngularComponent,
   ],
   imports: [
     FormsModule,
