@@ -1,0 +1,14 @@
+<h3>Type 1</h3>
+<div class="text-white" [ngStyle]="{'background-color' : isStockAvailable ? 'green' : 'red' }">
+    {{ isStockAvailable ? "Stock is Available" : "Out of Stock" }}
+</div>
+
+<h3>Type 2</h3>
+<div class="text-white" [ngStyle]="{'background-color' : divColor }">
+    {{ isStockAvailable ? "Stock is Available" : "Out of Stock" }}
+</div>
+
+<h3>Type 3</h3>
+<div class="text-white" [ngStyle]="{'background-color' : getDivColor() }">
+    {{ isStockAvailable ? "Stock is Available" : "Out of Stock" }}
+</div>

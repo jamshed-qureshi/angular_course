@@ -10,6 +10,8 @@ import { VIIITwoWayDataBindingComponent } from './lessons/viii-two-way-data-bind
 import { XNgIfInAngularComponent } from './lessons/x-ng-if-in-angular/x-ng-if-in-angular.component';
 import { XINgForInAngularComponent } from './lessons/xi-ng-for-in-angular/xi-ng-for-in-angular.component';
 import { XIINgClassInAngularComponent } from './lessons/xii-ng-class-in-angular/xii-ng-class-in-angular.component';
+import { XIIINgStyleInAngularComponent } from './lessons/xiii-ng-style-in-angular/xiii-ng-style-in-angular.component';
+import { XIVNgSwitchInAngularComponent } from './lessons/xiv-ng-switch-in-angular/xiv-ng-switch-in-angular.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { XIINgClassInAngularComponent } from './lessons/xii-ng-class-in-angular/
     XNgIfInAngularComponent,
     XINgForInAngularComponent,
     XIINgClassInAngularComponent,
+    XIIINgStyleInAngularComponent,
+    XIVNgSwitchInAngularComponent,
   ],
   imports: [
     FormsModule,
