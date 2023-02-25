@@ -16,6 +16,9 @@ import { XVTemplateVariablesInAngularComponent } from './lessons/xv-template-var
 import { XVIIInputDecoratorInAngularComponent } from './lessons/xvii-input-decorator-in-angular/xvii-input-decorator-in-angular.component';
 import { ParentComponent } from './lessons/xvii-input-decorator-in-angular/parent/parent.component';
 import { ChildComponent } from './lessons/xvii-input-decorator-in-angular/child/child.component';
+import { XVIIIOutputDecoratorsInAngularComponent } from './lessons/xviii-output-decorators-in-angular/xviii-output-decorators-in-angular.component';
+import { OutputParentComponent } from './lessons/xviii-output-decorators-in-angular/output-parent/output-parent.component';
+import { OutputChildComponent } from './lessons/xviii-output-decorators-in-angular/output-child/output-child.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,9 @@ import { ChildComponent } from './lessons/xvii-input-decorator-in-angular/child/
     XVIIInputDecoratorInAngularComponent,
     ParentComponent,
     ChildComponent,
+    XVIIIOutputDecoratorsInAngularComponent,
+    OutputParentComponent,
+    OutputChildComponent,
   ],
   imports: [
     FormsModule,
