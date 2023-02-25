@@ -13,6 +13,9 @@ import { XIINgClassInAngularComponent } from './lessons/xii-ng-class-in-angular/
 import { XIIINgStyleInAngularComponent } from './lessons/xiii-ng-style-in-angular/xiii-ng-style-in-angular.component';
 import { XIVNgSwitchInAngularComponent } from './lessons/xiv-ng-switch-in-angular/xiv-ng-switch-in-angular.component';
 import { XVTemplateVariablesInAngularComponent } from './lessons/xv-template-variables-in-angular/xv-template-variables-in-angular.component';
+import { XVIIInputDecoratorInAngularComponent } from './lessons/xvii-input-decorator-in-angular/xvii-input-decorator-in-angular.component';
+import { ParentComponent } from './lessons/xvii-input-decorator-in-angular/parent/parent.component';
+import { ChildComponent } from './lessons/xvii-input-decorator-in-angular/child/child.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { XVTemplateVariablesInAngularComponent } from './lessons/xv-template-var
     XIIINgStyleInAngularComponent,
     XIVNgSwitchInAngularComponent,
     XVTemplateVariablesInAngularComponent,
+    XVIIInputDecoratorInAngularComponent,
+    ParentComponent,
+    ChildComponent,
   ],
   imports: [
     FormsModule,

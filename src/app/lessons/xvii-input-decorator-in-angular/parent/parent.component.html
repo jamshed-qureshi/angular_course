@@ -1,0 +1,7 @@
+<div *ngFor="let product of products" (click)="productSelected(product)">
+    {{ product }}
+</div>
+<hr>
+<div class="mt-5">
+    <app-child [selectedChildProduct]="selectedParentProduct"></app-child>
+</div>
