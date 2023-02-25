@@ -12,6 +12,7 @@ import { XINgForInAngularComponent } from './lessons/xi-ng-for-in-angular/xi-ng-
 import { XIINgClassInAngularComponent } from './lessons/xii-ng-class-in-angular/xii-ng-class-in-angular.component';
 import { XIIINgStyleInAngularComponent } from './lessons/xiii-ng-style-in-angular/xiii-ng-style-in-angular.component';
 import { XIVNgSwitchInAngularComponent } from './lessons/xiv-ng-switch-in-angular/xiv-ng-switch-in-angular.component';
+import { XVTemplateVariablesInAngularComponent } from './lessons/xv-template-variables-in-angular/xv-template-variables-in-angular.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { XIVNgSwitchInAngularComponent } from './lessons/xiv-ng-switch-in-angula
     XIINgClassInAngularComponent,
     XIIINgStyleInAngularComponent,
     XIVNgSwitchInAngularComponent,
+    XVTemplateVariablesInAngularComponent,
   ],
   imports: [
     FormsModule,
