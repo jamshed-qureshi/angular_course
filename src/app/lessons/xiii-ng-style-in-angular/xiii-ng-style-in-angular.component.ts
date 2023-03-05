@@ -9,7 +9,7 @@ export class XIIINgStyleInAngularComponent {
   isStockAvailable: boolean = true;
   divColor = 'green';
 
-  getDivColor(){
+  getDivColor(){ 
     return this.isStockAvailable ? 'green' : 'red';
   }
 }
