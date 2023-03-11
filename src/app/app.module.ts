@@ -21,6 +21,8 @@ import { OutputParentComponent } from './lessons/xviii-output-decorators-in-angu
 import { OutputChildComponent } from './lessons/xviii-output-decorators-in-angular/output-child/output-child.component';
 import { XIXViewChildInAngularComponent } from './lessons/xix-view-child-in-angular/xix-view-child-in-angular.component';
 import { XXViewChildrenInAngularComponent, ViewChildrenChildComponent } from './lessons/xx-view-children-in-angular/xx-view-children-in-angular.component';
+import { XXINgContentComponent } from './lessons/xxi-ng-content/xxi-ng-content.component';
+import { NgContentChildComponent } from './lessons/xxi-ng-content/ng-content-child/ng-content-child.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { XXViewChildrenInAngularComponent, ViewChildrenChildComponent } from './
     OutputChildComponent,
     XIXViewChildInAngularComponent,
     XXViewChildrenInAngularComponent,
-    ViewChildrenChildComponent
+    ViewChildrenChildComponent,
+    XXINgContentComponent,
+    NgContentChildComponent,
   ],
   imports: [
     FormsModule,
